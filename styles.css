@@ -1,0 +1,30 @@
+body {
+    background-image: url('4dc9ed29-1f14-4df1-9cde-d81bbf102916.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
